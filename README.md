@@ -8,7 +8,7 @@ Abstract Factory is a creational design pattern that lets you produce families o
 
 The first thing the Abstract Factory pattern suggests is to explicitly declare interfaces for each distinct product of the product family (e.g., storage, database or virtual machine). Then you can make all variants of products follow those interfaces. For example, all storage variants can implement the Storage interface; all virtual machine variants can implement the VirtualMachine interface, and so on.
 
-[Diagram-1]
+![Alt text](Abstract-Factory.png?raw=true "Abstract Factory diagram")
 
 The next move is to declare the Abstract Factory—an interface with a list of creation methods for all products that are part of the product family (for example, createStorage, createVirtualMachine and createDatabase). These methods must return abstract product types represented by the interfaces we extracted previously: Storage, VirtualMachine, Database and so on.
 
