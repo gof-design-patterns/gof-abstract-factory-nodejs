@@ -6,7 +6,7 @@
   "scripts": {
     "start": "sucrase-node src/app.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --no-cache",
-    "test:staged": "npm test"
+    "test:staged": "npm test -- --findRelatedTests"
   },
   "repository": {
     "type": "git",
