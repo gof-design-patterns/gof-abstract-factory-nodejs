@@ -2,11 +2,11 @@
   "name": "gof-abstract-factory-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "sucrase-node src/app.ts",
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --no-cache",
+    "test:staged": "npm test"
   },
   "repository": {
     "type": "git",
