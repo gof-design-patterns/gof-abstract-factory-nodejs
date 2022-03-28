@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gof-design-patterns/gof-abstract-factory-nodejs/issues"
   },
-  "homepage": "https://github.com/gof-design-patterns/gof-abstract-factory-nodejs#readme"
+  "homepage": "https://github.com/gof-design-patterns/gof-abstract-factory-nodejs#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.1"
+  }
 }
